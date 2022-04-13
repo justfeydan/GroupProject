@@ -1,0 +1,199 @@
+* {
+    font-family: 'montserratregular';
+    color: #2F2F2F;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapper {
+    width: 100%;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.popular {
+    height: 843px;
+    background: linear-gradient(
+          to right,
+          white 0%,
+          white 60%,
+          #EE7700 60%,
+          #EE7700 100%
+        );
+}
+.popular_container {
+    display: flex;
+    height: 100%;  
+}
+
+
+/*      Заголовок и описание      */
+
+.popular-text {
+    padding-top: 300px;
+    padding-left: 100px;
+    position: relative;    
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.popular-h1{
+    font-family: 'montserratbold';
+    font-size: 46px;
+    padding-bottom: 16px;
+}
+.popular-p-dishes {
+    width: 450px;
+    font-size: 18px;
+    line-height: 145%;
+}
+.popular-btn {
+    font-family: 'montserratsemibold';
+    margin-top: 33px;
+    width: 208px;
+    height: 48px;
+    font-size: 16px;
+    color: white;
+    background-color: #EE7700;
+    border: #EE7700;
+    border-radius: 0px 24px 24px 24px;
+    box-shadow: 0px 0px 16px rgba(255, 119, 20, 0.44);
+}
+.popular-btn:hover {
+    background-color: #ed8115;
+}
+.popular-btn:active {
+    background-color: #E86100;
+}
+
+/*------------------------------*/
+
+
+
+/*      Работа с фоном      */
+
+.popular-bg {
+    position: relative;
+    width: 50%;
+    background: url("../content/popular-dishes-back.png") no-repeat 265px 0 white;
+}
+.popular-bg-img {
+    position: absolute;
+    right: 0px;
+    top: 145px;
+}
+.popular-bg-line {
+    position: absolute;
+    top: 85px;
+    right: -55px;
+}
+.popular-card {
+    position: absolute;
+    top: 550px;
+    right: 425px;
+    width: 305px;
+    height: 220px;
+    padding: 7px 0 15px 38px;
+    /* padding-top: 7px;
+    padding-left: 38px; */
+    background-color: white;
+    box-shadow: 0px 4px 44px rgba(0, 0, 0, 0.11);
+    border-radius: 0px 33px 33px 33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.popular-card-des1 {
+    font-family: 'montserratsemibold';
+    font-size: 18px;
+}
+.popular-card-des2 {
+    font-size: 16px;
+}
+.popular-card-cost {
+    font-family: 'montserratbold';
+    font-size: 18px;
+    color: #EE7700;
+}
+.popular-btn-card {
+    color: #2F2F2F;
+    border: none;
+    background-color: white;
+    font-family: 'montserratsemibold';
+    font-size: 16px;
+    text-align: left;
+    line-height: 155.4%;
+}
+
+/*------------------------------*/
+
+
+
+
+/*      Кнопки на карточке      */
+
+.p-btn {
+    position: absolute;
+    left: 180px;
+    bottom: -23px;
+}
+.popular-btn-slider {
+    position: static;
+    text-align: center;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    border: none;
+}
+.p-b-s--prev {
+    background-color: #82BC00;
+    left: 0;
+}
+.p-b-s--prev:hover{
+    background: #85c005;
+}
+.p-b-s--prev:active{
+    background: rgb(112, 163, 0);
+}
+
+
+.p-b-s--next {
+    background-color: #EE7700;
+    right: 0;
+}
+.p-b-s--next:hover{
+    background: #f87f05;
+}
+.p-b-s--next:active{
+    background: #E86100;
+}
+
+/*------------------------------*/
+
+
+/*      Стрелки в проекте      */
+
+.popular-row {
+    border-right: 1.5px solid #2F2F2F;
+    border-top: 1.5px solid #2F2F2F;
+    box-sizing: border-box;
+    transform: rotate(45deg);
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    margin-top: 5.5px;
+    margin-left: 10.67px;
+}
+.slider-row {
+    border-right: 3px solid white;
+    border-top: 3px solid white;
+    box-sizing: border-box;
+    transform: rotate(45deg);
+    position: absolute;
+    width: 8px;
+    height: 8px;
+}
